@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 0.8rem;
+    gap: 0.5rem;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: .4rem;
+    font-size: 16px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
